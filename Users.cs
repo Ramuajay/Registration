@@ -8,15 +8,19 @@ namespace RegistrationApp
     public class Users
     {
 
-        public int UserID;
-        public string username;
+        public int UserID { get; }
+        public string Username { get; set; }
+        public string Firstname{ get; set; }
+
+        public string Lastname { get; set; }
+        public string Email { get; set; }
+        public string Phone { get; set; }
 
         
         public void CreateNewUser(Users u)
         {
 
-            ///CREATE NEW USER C# and SQL CODE
-            ///
+            ///Vishal n Vamshi write code here
         }
         public int ModifyUser(Users u)
         {
